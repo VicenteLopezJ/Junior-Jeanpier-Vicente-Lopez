@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{ 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;   
+}
+body{
+    font-family: "Poppins" , sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px;
+    height: 10vh;
+    min-height: 10px;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header img{
+    width: 100px;
+    margin-right: 20px;
+}
+mav {
+    display: flex;
+    gap: 10px;
+}
+nav button{
+    background-color: rgb(210, 147, 30);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+nav button:hover{
+    background-color: #d26f1e;
+}
+main{
+    flex: 1;
+    padding: 20px;
+}
+#welcome h1{
+    text-align: center;
+}
+#welcome img{
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+#quienes-somos,#desarrollo-historico{
+    margin-top: 25px;
+}
+#quienes-somos h2{
+    color: red;
+}
+#desarrollo-historico h2{
+    color:blue
+}
+.button{
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.butoon:hover{
+    background-color: yellow;
+}
+.two-column{
+    display: flex;
+    align-items: flex-start;
+}
+.two-column .text-content{
+    flex: 1;
+    margin-right: 25px;
+}
+.two-column .image-content{
+   flex: 0 0 150px;
+}
+.two-column .image-content img{
+    max-width: 100%;
+    height: auto;
+}
+#mision-vision{
+    margin-top: 25px;
+}
+#mision-vision h2{
+    color: red;
+    font-size: 1.5em;
+    margin-bottom: 1px;
+}
+.mision-vision-content{
+    margin-bottom: 25px;
+}
+.mision h3, .vision h3{
+    color: #d26f1e;
+    margin-bottom: 10px;
+}
+.Organigrama-enlace{
+    color: blue;
+    text-decoration:underline;
+    font-weight: bold;
+}
+.Organigrama-enlace:hover{
+    text-decoration: underline;
+}
+#youtube {
+    margin-top: 25px;
+    text-align: center;
+    
+}
+#youtube h2 {
+    color: blue;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.youtube-content img {
+    width: 100%;
+    max-width: 1400px;
+    display:block;
+    margin-top: 0 auto;
+    text-align: center;
+    
+}
+.Imagen-info img{
+    width: 100%;
+    max-width: 1400px;
+    display:block;
+    margin-top: 0 auto;  
+    text-align: center;
+}
+
+
